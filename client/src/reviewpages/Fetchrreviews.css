@@ -1,0 +1,57 @@
+
+/* Style for the parent container */
+.full-div {
+  display: flex;
+}
+
+/* Style for the left div */
+.customer-reviews {
+  flex: 1;
+}
+
+/* Style for the right div */
+.charts-js {
+  flex: 1;
+}
+
+
+/* .charts-js{
+  text-align: center;
+    height: 400px;
+  width: 400px;
+} */
+.data-card-pie{
+  margin-left: 160px;
+    height: 360px;
+  width: 330px;   
+}
+.data-card-bar
+{
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 120px;
+  height: 50s0px;
+  width: 500px; 
+}
+.inner-div,.charts-js{
+  margin-left: 25px;
+}
+.sentiment-counts p {
+  line-height: 0.6;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.centered-text {
+  display: inline-block; /* Make the <p> tag an inline-block element */
+}
+
+.review-div{
+  margin-bottom: 10px;
+  border: 1px solid beige;
+  border-radius: 8px;
+  background-color: rgb(245, 243, 243);
+  padding: 10px;
+}

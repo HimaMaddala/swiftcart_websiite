@@ -1,0 +1,73 @@
+.left-div {
+    background-color: white;
+    width: 1000px; /* Added 'px' to specify the unit */
+    height: 250px; /* Added 'px' to specify the unit */
+    border: 0.25px solid black; /* Set border to black with a thickness of 0.25px */
+    margin-left: 5px;
+}
+.left-div {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically in the center */
+}
+.custom-dropdown .dropdown-toggle,
+.custom-dropdown .dropdown-menu {
+  color:black;
+  background-color: rgb(216, 221, 230); /* Change background color to your desired color */
+  border-color: rgb(216, 221, 230); /* Change border color to match background color */
+}
+
+.custom-dropdown .dropdown-toggle:hover,
+.custom-dropdown .dropdown-menu:hover {
+  color: black;
+  background-color: rgb(216, 221, 230); /* Change hover background color to match background color */
+  border-color: rgb(216, 221, 230); /* Change hover border color to match background color */
+}
+
+
+
+.checkbox-wrapper{
+  margin-left: 10px ;
+}
+.left-div-price{
+    margin-right: 10px;
+    width: 300px;
+}
+
+.left-div > div {
+    margin-right: 10px; /* Add margin to create space between divs */
+}
+.cart-container {
+    display: flex;
+  }
+  
+  /* .left-div {
+    flex: 1;
+  } */
+  
+  .vertical-rect {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust width as needed */
+    margin-left: 20px; /* Adjust margin as needed */
+  }
+  
+  .entire-page {
+    display: flex;
+  }
+  
+  .left-div-container {
+    flex: 1;
+  }
+  
+  .right-div {
+    margin-top: 110px;
+    margin-left: 20px;
+    width: 250px; /* Added 'px' to specify the unit */
+    height: 300px;
+    flex: 1;
+    border: 0.25px solid black;
+  }
+
+  .right-div-inner{
+    margin-left: 10px;
+  }
+  

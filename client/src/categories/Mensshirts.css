@@ -1,0 +1,213 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Text selection styles */
+::selection {
+    color: #fff;
+    background: #17A2B8;
+}
+
+/* Header styles */
+header h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Remove number input spinner */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Price input separator */
+.price-input .separator {
+    width: 30px;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Slider styles */
+.slider {
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.slider .progress {
+    height: 100%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    border-radius: 5px;
+    background: #17A2B8;
+}
+
+/* Range input styles */
+.range-input {
+    position: relative;
+}
+
+.range-input input {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+}
+
+/* Slider thumb styles */
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Main div container */
+.maindivkey {
+    display: flex;
+    gap: 20px;
+}
+
+/* Filter container */
+.filters {
+    flex: 0 0 300px;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(248, 246, 246);
+    border-radius: 3px;
+    background-color: rgb(245, 243, 243);
+    padding: 10px;
+    width: 350px; /* Adjust width */
+}
+
+/* Display body container */
+.displaybody {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    flex: 1;
+    border: 1px solid rgb(247, 248, 247);
+    border-radius: 3px;
+    background-color: rgb(245, 243, 243);
+    padding: 10px;
+}
+.h2{
+    font-size: 20px;
+    font-family: 'Assistant', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    /* Add any additional styles as needed */
+  }
+.h3 {
+    font-size: 15px;
+    font-family: 'Assistant', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    /* Add any additional styles as needed */
+  }
+  
+/* Price filter combined styles */
+.price-filters-combined {
+    width: 150px;
+}
+
+/* Price input styles */
+.price-input {
+    width: 100px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.price-input .field {
+    display: flex;
+    width: 100px;
+    height: 45px;
+    align-items: center;
+}
+
+.field input {
+    width: 60px;
+    height: 100%;
+    outline: none;
+    font-size: 19px;
+    margin-left: 6px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #999;
+}
+.col-md-4-mb-3{
+    flex: 0 0 10%; /* Set each column to occupy 20% of the container width */
+  }
+
+
+
+ /* Pagination CSS */
+.containerpagination {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containerpagination .pagination {
+    position: relative;
+    height: 60px;
+    background: rgba(1, 14, 3, 0.05);
+    box-shadow: 5px 5px 30px rgba(242, 239, 239, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    border-radius: 2px;
+  }
+  
+  .containerpagination .pagination li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  .containerpagination .pagination li a {
+    position: relative;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #0c0000;
+    font-weight: 500;
+  }
+  
+  .containerpagination .pagination li a:hover,
+  .containerpagination .pagination li.active a {
+    background: rgba(173, 171, 171, 0.2);
+  }
+  

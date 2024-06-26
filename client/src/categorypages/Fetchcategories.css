@@ -1,0 +1,75 @@
+
+.card-body {
+    text-align: center; /* Align text inside card-body */
+    line-height: 0.4;
+  }
+.card:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .card:hover .card-title {
+    color: #007bff; /* Change the color of the card title on hover */
+  }
+
+  .myrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+  }
+  .myrow .col-md-4 {
+  margin-bottom: 1rem;
+  margin-right: 15px;
+  margin-left: -10px;
+}
+
+  .col-md-4 {
+    flex: 0 0 16%; /* Set each column to occupy 20% of the container width */
+  }
+  .text-center {
+    text-align: center;
+  }
+  .something{
+    border: 1px solid rgb(245, 245, 245);
+  border-radius: 8px;
+  background-color: rgb(245, 243, 243);
+  padding: 10px;
+  }
+  .nothing{
+    border: 1px solid rgb(245, 245, 245);
+  border-radius: 8px;
+  background-color: rgb(245, 243, 243);
+  padding: 10px;
+  }
+  /* Example CSS for styling carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem; /* Set width as needed */
+  height: 3rem; /* Set height as needed */
+  background-color: #ffffff; /* Set background color */
+  border-radius: 50%; /* Make it circular */
+  border: 1px solid #cccccc; /* Add border */
+  opacity: 0.8; /* Set opacity */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1; /* Increase opacity on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #000000; /* Set arrow color */
+  font-size: 2rem; /* Set arrow size */
+}
+
+/* Example CSS for styling carousel indicators */
+.carousel-indicators li {
+  background-color: #cccccc; /* Set indicator color */
+}
+
+.carousel-indicators .active {
+  background-color: #000000; /* Set active indicator color */
+}
+
+  

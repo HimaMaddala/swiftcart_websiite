@@ -1,0 +1,53 @@
+.barchart-own{
+  height: 400px;
+  width: 700px; 
+}
+.inner-div-own{
+    margin-left: 120px;
+    /* display: flex; */
+}
+.top-own-div{
+  display: flex;
+}
+.bottom-own-div{
+  display: flex;
+}
+.linechart{
+  flex:1;
+  height: 400px;
+  width: 700px; 
+}
+.barchart{
+  flex:1;
+  height: 400px;
+  width: 700px; 
+}
+
+.linechart-analysis{
+  flex:1; 
+  height: 150px;
+  margin-top: 80px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 8px;
+  background-color: rgb(245, 243, 243);
+  padding: 10px;
+}
+.main-box{
+  margin-left: 200px;
+  margin-right: 3px;
+}
+.barchart-analysis{
+  flex:1; 
+  height: 150px;
+  margin-top: 80px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 8px;
+  background-color: rgb(245, 243, 243);
+  padding: 10px;
+}
+
